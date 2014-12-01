@@ -7,4 +7,14 @@ public class GamePiece {
 		pieceType = type;
 		pieceSide = side;
 	}
+	
+	
+	public void lineMove(){
+		
+	}
+	
+	public void knightMove(){
+		
+	}
+	
 }

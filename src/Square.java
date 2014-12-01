@@ -16,4 +16,8 @@ public class Square {
 	public void placePiece(String pieceSide, String pieceType) {
 		this.piece = new GamePiece(pieceType, pieceSide);
 	}
+	
+	public void clearPiece(){
+		this.piece = null;
+	}
 }
